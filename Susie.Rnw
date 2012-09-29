@@ -2,7 +2,17 @@
 
 \begin{document}
 
-This is junk.
+This is junk. Someone is getting up.
+
+<<>>=
+x <- rnorm(1000, 100, 10)
+par(mfrow= c(1,2))
+hist(x, col = rainbow(30))
+boxplot(x, col = "pink")
+@
+
+
+
 
 
 \end{document}
